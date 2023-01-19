@@ -347,6 +347,11 @@ strong {
   text-decoration: none;
   transition: background-color 0.3s;
 }
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1.6rem;
+  }
+}
 .btn--full:link,
 .btn--full:visited {
   background-color: $main_color;
